@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lezapp.tarea.classicpong.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lezapp.tarea.classicpong.app.MenuP"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lezapp.tarea.classicpong.app.Gameplay"
+            android:label="@string/title_activity_gameplay" >
+        </activity>
+        <activity
+            android:name="com.lezapp.tarea.classicpong.app.GameOver"
+            android:label="@string/title_activity_game_over" >
+        </activity>
+        <activity
+            android:name="com.lezapp.tarea.classicpong.app.Scores"
+            android:label="@string/title_activity_scores" >
+        </activity>
+        <activity
+            android:name="com.lezapp.tarea.classicpong.app.Instrucciones"
+            android:label="@string/title_activity_instrucciones" >
+        </activity>
+    </application>
+
+</manifest>

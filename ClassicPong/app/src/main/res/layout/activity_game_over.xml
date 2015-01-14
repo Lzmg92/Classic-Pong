@@ -1,0 +1,50 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Score"
+        android:id="@+id/txtscore"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#2e564c"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtnombre"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:textColor="#faf9e7"
+        android:text="AAAA"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:autoText="false"
+        android:maxLength="4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/btnguardar"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:background="#4bd3d4" />
+
+</LinearLayout>

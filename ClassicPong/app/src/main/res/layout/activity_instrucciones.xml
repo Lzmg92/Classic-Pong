@@ -1,0 +1,25 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#010300">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t\t\t\t\t\t\t\tINSTRUCCIONES \n En este clasico juego, tu obtetivo es anotar puntos. Esto se logra cuando el oponente (la barra de la izquierda) no alcanza la pelota que rebota por toda la pantalla. Al mismo tiempo, tu (la barra de la derecha) debes detener dicha pelota, colocándote frente a ella. Puedes mover tu barra de arriba a abajo inclinando tu celular o Tablet hacia adelante o hacia atrás para evitar que tu oponente anote puntos, pero ten cuidado, con cada punto que anotes, la pelota sera mas rapida. Si tu oponente alcanza 3 puntos, el juego habrá terminado. Alcanza la mayor cantidad de puntos posible! Para mas información puedes observar el video:"
+            android:id="@+id/textView"
+            android:textColor="#f9fdea"
+            android:textSize="25dp" />
+    </ScrollView>
+
+</RelativeLayout>
